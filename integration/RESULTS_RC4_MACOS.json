@@ -1,0 +1,15 @@
+{
+  "data_kind": "synthetic",
+  "donors": 12,
+  "cell_counts": 67,
+  "aggregation": "exact equality with independent R rowsum",
+  "descriptive_effect": "matches R natural-log1p CPM mean contrast within 1e-11",
+  "edger_genes": 200,
+  "edger_adapter_reference": "logFC, logCPM, F, PValue, FDR within rtol 1e-10 / atol 1e-12",
+  "r_versions": [
+    "R 4.5.2",
+    "edgeR 4.8.2",
+    "limma 3.66.0"
+  ],
+  "interpretation": "Numerical and interface equivalence on synthetic counts; not human atlas validation, sex effect or causal mechanism"
+}

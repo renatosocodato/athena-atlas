@@ -1,0 +1,9 @@
+[
+  {
+    "source": "analyses/13_wp2_atlas_adjudication/modules/02_differential_expression/s06_edgeR_ql_contrasts.R",
+    "source_sha256": "0fad3d69423c3d547f7efc7631b3c2f7357b6c6b4e016af857b7a1b6a2849497",
+    "export_sha256": "76b04c442ec1d85bfb75a9d4ad40a83ffb5f134c3db0616f8abe1a10752db5a1",
+    "modified_from_source": true,
+    "export": "resources/edger_route.R"
+  }
+]

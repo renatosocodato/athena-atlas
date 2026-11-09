@@ -1,0 +1,5 @@
+# Direct runtime and test dependencies observed in the local Python 3.12 validation environment.
+# Not a cross-platform transitive lockfile.
+numpy==2.5.4
+pandas==3.1.1
+pytest==9.2.0

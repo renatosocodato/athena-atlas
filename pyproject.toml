@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "athena-atlas"
+version = "0.1.0rc4"
+description = "Donor-aware atlas analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Renato Socodato"}]
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<4"]
+[project.optional-dependencies]
+test = ["pytest>=8"]
+[project.scripts]
+athena-atlas = "athena_atlas.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["**/__pycache__/*", "**/*.pyc", "**/*.pyo"]
+
+[tool.setuptools.package-data]
+athena_atlas = ["resources/*.R"]

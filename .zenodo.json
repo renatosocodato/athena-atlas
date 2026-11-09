@@ -1,0 +1,12 @@
+{
+  "title": "athena-atlas: Donor-aware atlas analysis",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Socodato, Renato"
+    }
+  ],
+  "license": "mit",
+  "version": "0.1.0rc4",
+  "description": "Software release candidate. Donor-aware atlas analysis. Synthetic examples; see README and INPUTS for assumptions and validation limits."
+}
